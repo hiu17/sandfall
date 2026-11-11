@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "sandfall",
+  "version": "${version}",
+  "name": "Sandfall",
+  "description": "Prevents sand, red sand, and gravel from falling in Minecraft 1.20.1.",
+  "authors": [
+    "hiu17"
+  ],
+  "contact": {
+    "homepage": "https://github.com/hiu17/sandfall"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "hiu17.sandfall.Sandfall"
+    ]
+  },
+  "mixins": [
+    "sandfall.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}
